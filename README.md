@@ -40,11 +40,17 @@ Enhanced the Shell from project 2.
 Added commands:
 
 Backgrounding job using '&'
+
 warnload
+
 watchuser
+
 watchmail
+
 noclobber flag
+
 redirection operator ( >, >&, >>, >>& ) 
+
 IPC using pips
 
 Project 4:
@@ -53,22 +59,31 @@ User level thread library:
 part1:
 
 void t_init(); 
+
 void t_shutdown(); 
+
 int t_create(void (*func)(int), int thr_id, int pri); 
+
 void t_terminate(); 
+
 void t_yield();
 
 part2:
 
 2 level queues 
+
 round robin scheduling
 
 part3:
 
 int sem_init(sem_t *sp, int sem_count); 
+
 void sem_wait(sem_t *sp); 
+
 void sem_signal(sem_t *sp); 
+
 void sem_destroy(sem_t *sp); 
+
 dining philosophers
 
 part4:
