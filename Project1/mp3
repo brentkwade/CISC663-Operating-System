@@ -1,0 +1,2 @@
+all: dll.c dlllib.h
+cc -o mp3 dll.c 
