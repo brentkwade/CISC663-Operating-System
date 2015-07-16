@@ -9,17 +9,29 @@ Project 2:
 This is a shell implementation. Some part of the main code skeleton is from an open source online code of BDShell. I call my shell RShell.The skeleton will be updated with a better structure and will be solely my contribution. Built in commands of the shell:
 
 history
+
 which
+
 where
+
 setenv
+
 printenv
+
 pid
+
 pwd
+
 prompt
+
 exit
+
 kill
+
 cd
+
 ls
+
 and all other commands are executed on parent shell and then the output is displayed...
 
 Project 3:
