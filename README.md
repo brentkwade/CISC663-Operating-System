@@ -1,34 +1,63 @@
 Welcome to the CISC663-Operating-System wiki! All projects are fully functional and developed in C. Following is the high-level overview of the projects:
 
 Project1:
+
 Contains a doubly linked list demonstration. The project is songs database using linked list data structure. Some part of the code is still buggy (especially with freeing memory that was not malloc'ed) since it was written when I was learning linked list and pointers. The projects following this has lot less memory faults (testes with valgrind).
 
 Project 2:
+
 This is a shell implementation. Some part of the main code skeleton is from an open source online code of BDShell. I call my shell RShell.The skeleton will be updated with a better structure and will be solely my contribution. Built in commands of the shell:
 
-history which where setenv printenv pid pwd prompt exit kill cd ls and all other commands are executed on parent shell and then the output is displayed...
+history
+which
+where
+setenv
+printenv
+pid
+pwd
+prompt
+exit
+kill
+cd
+ls
+and all other commands are executed on parent shell and then the output is displayed...
 
 Project 3:
 Enhanced the Shell from project 2.
 
 Added commands:
 
-Backgrounding job using '&' warnload watchuser watchmail noclobber flag redirection operator ( >, >&, >>, >>& ) IPC using pips
+Backgrounding job using '&'
+warnload
+watchuser
+watchmail
+noclobber flag
+redirection operator ( >, >&, >>, >>& ) 
+IPC using pips
 
 Project 4:
 User level thread library:
 
 part1:
 
-void t_init(); void t_shutdown(); int t_create(void (*func)(int), int thr_id, int pri); void t_terminate(); void t_yield();
+void t_init(); 
+void t_shutdown(); 
+int t_create(void (*func)(int), int thr_id, int pri); 
+void t_terminate(); 
+void t_yield();
 
 part2:
 
-2 level queues round robin scheduling
+2 level queues 
+round robin scheduling
 
 part3:
 
-int sem_init(sem_t *sp, int sem_count); void sem_wait(sem_t *sp); void sem_signal(sem_t *sp); void sem_destroy(sem_t *sp); dining philosophers
+int sem_init(sem_t *sp, int sem_count); 
+void sem_wait(sem_t *sp); 
+void sem_signal(sem_t *sp); 
+void sem_destroy(sem_t *sp); 
+dining philosophers
 
 part4:
 
